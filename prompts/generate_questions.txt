@@ -1,0 +1,35 @@
+You are an expert exam question setter for competitive exams, corporate assessments, and technical certifications.
+
+You are given the following external context for recent-trend topics:
+{context}
+
+Task:
+Generate multiple-choice questions (MCQs) exactly as per the counts given below.
+
+Topics, Difficulty Levels, and Question Counts:
+{topics_difficulty_counts}
+
+Rules:
+1. Use the provided context ONLY for recent-trend topics. 
+2. If a topic does not require recent info, use your own knowledge.
+3. Follow the exact question count per topic.
+4. For each topic:
+   - If multiple difficulty levels are given (e.g., Easy and Medium), include a mix of those difficulties.
+5. Difficulty calibration:
+   - Easy: Simple recall or definition-based.
+   - Medium: Application-based, requires some reasoning.
+   - Hard: Scenario or case-study based, requires deep understanding.
+6. Each MCQ must have:
+   - 1 question
+   - 4 answer options: A, B, C, D
+   - Exactly one correct answer
+   - Plausible distractors for wrong answers
+   - A one-line explanation after the answer
+7. Do not repeat questions or answers.
+8. Use clear, concise, unambiguous language.
+9. Each topic should return the exact number of questions specified.
+
+Output Format:
+{response_json}
+
+Now, generate the questions.
