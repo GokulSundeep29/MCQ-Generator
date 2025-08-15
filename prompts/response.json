@@ -1,0 +1,41 @@
+{
+    "1": {
+        "mcq": "multiple choice question",
+        "Topic": "Topic Name",
+        "Difficulty": "Easy/Medium/Hard",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here"
+        },
+        "Answer": "Correct Option Letter",
+        "Explanation": "One-line explanation" 
+    },
+    "2": {
+        "mcq": "multiple choice question",
+        "Topic": "Topic Name",
+        "Difficulty": "Easy/Medium/Hard",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here"
+        },
+        "Answer": "Correct Option Letter",
+        "Explanation": "One-line explanation" 
+    },
+    "3": {
+        "mcq": "multiple choice question",
+        "Topic": "Topic Name",
+        "Difficulty": "Easy/Medium/Hard",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here"
+        },
+        "Answer": "Correct Option Letter",
+        "Explanation": "One-line explanation" 
+    }
+}

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mcqgenrator
+Version: 0.1.0
+Summary: A tool to generate multiple choice questions from text
+Author: Gokul Sundeep
+Author-email: gokulsundeep@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: streamlit
+Requires-Dist: python-dotenv
+Requires-Dist: PyPDF2
+Requires-Dist: langchain-community
+Requires-Dist: langchain-openai
