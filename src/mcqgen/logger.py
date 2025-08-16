@@ -2,8 +2,10 @@ import logging
 from datetime import datetime
 import os
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 LOG_FILE = f"{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_mcq_generator.log"
-log_path = os.path.join(os.getcwd(), "logs")
+log_path = os.path.join(ROOT_DIR, "logs")
 os.makedirs(log_path, exist_ok=True)
 
 LOG_FILE_PATH = os.path.join(log_path, LOG_FILE)

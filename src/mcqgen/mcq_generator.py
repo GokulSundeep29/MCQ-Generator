@@ -86,3 +86,5 @@ def generate_mcq():
     except Exception as e:
         logging.error(f"Error in generating MCQs: {e}")
         return None
+    
+generate_mcq()
