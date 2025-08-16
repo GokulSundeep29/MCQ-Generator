@@ -1,0 +1,15 @@
+2025-08-17 00:48:24,396 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 00:48:24,573 - 58 - root - INFO - Topics String: AI - Medium, Hard - generate 6 questions
+Quantitative Aptitude - Easy - generate 4 questions
+2025-08-17 00:49:01,566 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 00:49:01,601 - 78 - root - INFO - Successfully generated questions
+2025-08-17 00:51:15,536 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 00:51:15,567 - 58 - root - INFO - Topics String: AI - Medium, Hard - generate 6 questions
+Quantitative Aptitude - Easy - generate 4 questions
+2025-08-17 00:51:47,351 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 00:51:47,359 - 78 - root - INFO - Successfully generated questions
+2025-08-17 00:51:49,058 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 00:51:49,090 - 58 - root - INFO - Topics String: AI - Medium, Hard - generate 6 questions
+Quantitative Aptitude - Easy - generate 4 questions
+2025-08-17 00:52:23,083 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 00:52:23,089 - 78 - root - INFO - Successfully generated questions

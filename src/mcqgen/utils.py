@@ -1,20 +1,12 @@
-import json
+import io
 from docx import Document
-from docx.shared import Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from datetime import datetime
-import os
 
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-def convert_to_list_of_dict(data):
-    pass
-
-def download_as_word(mcq_data, output_file = f"MCQ_Questions_{current_time}.docx"):
+def download_as_word(mcq_data):
     # Create document
     doc = Document()
+    
     # Add title
     title = doc.add_heading('Multiple Choice Questions', 0)
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -47,5 +39,8 @@ def download_as_word(mcq_data, output_file = f"MCQ_Questions_{current_time}.docx
         # Add separator
         doc.add_paragraph("_" * 50)
     
-    # Save document
-    doc.save(os.path.join(ROOT_DIR, 'outputs', output_file))
+    # Save to BytesIO instead of disk
+    buffer = io.BytesIO()
+    doc.save(buffer)
+    buffer.seek(0)  # reset pointer
+    return buffer

@@ -1,0 +1,5 @@
+2025-08-17 00:57:18,847 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 00:57:19,012 - 58 - root - INFO - Topics String: AI - Medium, Hard - generate 5 questions
+Aptitude - Easy - generate 7 questions
+2025-08-17 00:58:16,576 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 00:58:16,611 - 78 - root - INFO - Successfully generated questions

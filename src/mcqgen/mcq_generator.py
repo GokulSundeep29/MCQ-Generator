@@ -24,7 +24,7 @@ OPENAI_KEY = os.getenv("OPENAI_API_KEY")
 TAVILY_KEY = os.getenv("TAVILY_API_KEY")
 
 
-def generate_mcq():    
+def generate_mcq(topics_list):    
     """
     Function to generate multiple choice questions based on topics and difficulty levels.
     It uses the OpenAI API to generate questions and Tavily for web search results.
@@ -51,11 +51,6 @@ def generate_mcq():
         # Web Search Tool
         search = TavilySearchResults(tavily_api_key=TAVILY_KEY, max_results=3)
 
-        topics_list = [
-            {"topic": "AI Agents", "difficulty": "Medium, Hard", "count": 4, "recent": True},
-            {"topic": "English Grammar", "difficulty": "Easy", "count": 3, "recent": False},
-            {"topic": "Cloud Computing", "difficulty": "Easy, Medium", "count": 5, "recent": True}
-        ]
 
         # Build topics string
         topics_str = "\n".join([f"{t['topic']} - {t['difficulty']} - generate {t['count']} questions" for t in topics_list])
@@ -87,4 +82,3 @@ def generate_mcq():
         logging.error(f"Error in generating MCQs: {e}")
         return None
     
-generate_mcq()

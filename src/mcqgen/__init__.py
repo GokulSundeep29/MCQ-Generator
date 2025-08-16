@@ -1,1 +1,1 @@
-model_name = "gpt-3.5-turbo"
+model_name = "gpt-5-nano-2025-08-07"
