@@ -3,3 +3,17 @@
 Verbal ability - Medium, Easy - generate 8 questions
 2025-08-17 01:07:26,242 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-08-17 01:07:26,277 - 78 - root - INFO - Successfully generated questions
+2025-08-17 01:21:20,555 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 01:21:20,617 - 58 - root - INFO - Topics String: Data Science - Easy, Medium - generate 3 questions
+Artificial Intelligence - Hard, Medium - generate 3 questions
+Network security - Medium, Hard - generate 2 questions
+Verbal Ability - Easy, Medium - generate 3 questions
+Network security - Medium - generate 3 questions
+Aptitude - Easy, Medium - generate 1 questions
+2025-08-17 01:22:07,924 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 01:22:07,954 - 78 - root - INFO - Successfully generated questions
+2025-08-17 01:26:43,087 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 01:26:43,121 - 58 - root - INFO - Topics String: AI -  - generate 3 questions
+2025-08-17 01:26:55,987 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 01:26:56,000 - 78 - root - INFO - Successfully generated questions
+2025-08-17 01:26:56,002 - 89 - root - INFO - Total questions generated: 3

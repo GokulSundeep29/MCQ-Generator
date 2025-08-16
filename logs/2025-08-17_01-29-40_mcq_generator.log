@@ -1,0 +1,11 @@
+2025-08-17 01:29:46,271 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 01:29:46,442 - 58 - root - INFO - Topics String: Quantitative aptitude - Easy - generate 3 questions
+2025-08-17 01:29:55,691 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 01:29:55,727 - 78 - root - INFO - Successfully generated questions
+2025-08-17 01:29:55,728 - 106 - root - INFO - Total questions generated: 3
+2025-08-17 01:32:32,278 - 35 - root - INFO - Starting MCQ generation process
+2025-08-17 01:32:32,326 - 58 - root - INFO - Topics String: Quantitative aptitude - Easy - generate 3 questions
+2025-08-17 01:32:43,318 - 1025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-17 01:32:43,327 - 78 - root - INFO - Successfully generated questions
+2025-08-17 01:32:43,328 - 106 - root - INFO - Total questions generated: 3
+2025-08-17 01:33:09,672 - 106 - root - INFO - Total questions generated: 3
