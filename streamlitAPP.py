@@ -31,7 +31,7 @@ if "results" not in st.session_state:
     st.session_state.results = {}
 
 st.title("MCQ Generator App")
-st.write(""*2)
+st.write("")
 
 # Add Row button (above form)
 if st.button("➕ Add Row"):
