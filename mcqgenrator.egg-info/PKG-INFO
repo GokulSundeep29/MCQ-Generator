@@ -12,3 +12,4 @@ Requires-Dist: python-dotenv
 Requires-Dist: PyPDF2
 Requires-Dist: langchain-community
 Requires-Dist: langchain-openai
+Requires-Dist: python-docx

@@ -10,7 +10,7 @@ setup(
     long_description_content_type='text/markdown',
     install_requires=[
                         "openai", "langchain", "streamlit", "python-dotenv", "PyPDF2", "langchain-community",
-                        "langchain-openai"
+                        "langchain-openai", "python-docx"
                     ],
     packages=find_packages(),
 )
