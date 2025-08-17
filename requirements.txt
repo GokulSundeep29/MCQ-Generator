@@ -6,5 +6,3 @@ pyPDF2
 langchain-openai
 langchain-community
 python-docx
-
--e .
