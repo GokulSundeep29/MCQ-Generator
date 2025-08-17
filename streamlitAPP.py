@@ -44,7 +44,7 @@ with st.form("user_inputs", clear_on_submit=False):
     with col1:
         subject = st.text_input("Topic", placeholder="Enter topic for MCQs", label_visibility="visible")
     with col2:
-        quiz_tone = st.pills("Tone", ["easy", "medium", "hard"], selection_mode="multi")
+        quiz_tone = st.pills("Tone", ["easy", "medium", "hard"], selection_mode="multi", default="easy")
     with col3:
         mcq_count = st.number_input("Count", min_value=1, max_value=50)
     with col4:
