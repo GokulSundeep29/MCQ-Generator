@@ -181,6 +181,8 @@ if st.session_state.results:
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
         
+        print('Completed...')
+        
     except Exception as e:
         st.error(f"Error displaying results: {e}")
         logging.error(f"Error displaying results: {e}")
